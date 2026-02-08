@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -15,7 +15,6 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic here
         console.log('Form submitted:', formData);
         alert('Message sent! (This is a demo)');
         setFormData({ name: '', email: '', message: '' });
@@ -50,28 +49,28 @@ const Contact = () => {
                             <Mail className="w-6 h-6 text-blue-400 mt-1 mr-4" />
                             <div>
                                 <h3 className="text-xl font-semibold mb-2">Email</h3>
-                                <p className="text-gray-400">amitbarel@example.com</p>
+                                <p className="text-gray-400">amitbarel@outlook.com</p>
                                 <p className="text-sm text-gray-500 mt-1">Send me a message anytime!</p>
                             </div>
                         </div>
 
-                        <div className="flex items-start cursor-pointer hover:bg-gray-800 p-4 rounded-lg transition-colors">
-                            <Phone className="w-6 h-6 text-purple-400 mt-1 mr-4" />
+                        <a href="https://github.com/amitbarel" target="_blank" rel="noopener noreferrer" className="flex items-start cursor-pointer hover:bg-gray-800 p-4 rounded-lg transition-colors">
+                            <Github className="w-6 h-6 text-purple-400 mt-1 mr-4" />
                             <div>
-                                <h3 className="text-xl font-semibold mb-2">Phone</h3>
-                                <p className="text-gray-400">+1 (555) 123-4567</p>
-                                <p className="text-sm text-gray-500 mt-1">Mon-Fri from 9am to 6pm.</p>
+                                <h3 className="text-xl font-semibold mb-2">GitHub</h3>
+                                <p className="text-gray-400">amitbarel</p>
+                                <p className="text-sm text-gray-500 mt-1">Check out my code repositories.</p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div className="flex items-start cursor-pointer hover:bg-gray-800 p-4 rounded-lg transition-colors">
-                            <MapPin className="w-6 h-6 text-pink-400 mt-1 mr-4" />
+                        <a href="https://www.linkedin.com/in/amit-barel/" target="_blank" rel="noopener noreferrer" className="flex items-start cursor-pointer hover:bg-gray-800 p-4 rounded-lg transition-colors">
+                            <Linkedin className="w-6 h-6 text-pink-400 mt-1 mr-4" />
                             <div>
-                                <h3 className="text-xl font-semibold mb-2">Location</h3>
-                                <p className="text-gray-400">Tel Aviv, Israel</p>
-                                <p className="text-sm text-gray-500 mt-1">Open to remote opportunities.</p>
+                                <h3 className="text-xl font-semibold mb-2">LinkedIn</h3>
+                                <p className="text-gray-400">Amit Barel</p>
+                                <p className="text-sm text-gray-500 mt-1">Connect with me professionally.</p>
                             </div>
-                        </div>
+                        </a>
                     </motion.div>
 
                     {/* Contact Form */}

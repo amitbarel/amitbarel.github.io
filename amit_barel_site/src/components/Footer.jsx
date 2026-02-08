@@ -21,11 +21,11 @@ const Footer = () => {
                             <span className="sr-only">GitHub</span>
                             <Github className="h-6 w-6" />
                         </a>
-                        <a href="https://linkedin.com/in/amitbarel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                        <a href="https://www.linkedin.com/in/amit-barel/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <span className="sr-only">LinkedIn</span>
                             <Linkedin className="h-6 w-6" />
                         </a>
-                        <a href="mailto:amitbarel@example.com" className="text-gray-400 hover:text-white transition-colors">
+                        <a href="mailto:amitbarel@outlook.com" className="text-gray-400 hover:text-white transition-colors">
                             <span className="sr-only">Email</span>
                             <Mail className="h-6 w-6" />
                         </a>
