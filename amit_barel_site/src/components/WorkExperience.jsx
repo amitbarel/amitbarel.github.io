@@ -13,7 +13,8 @@ const WorkExperience = () => {
                 'Identified and resolved complex technical issues by investigating system logs and ensuring smooth service operations.',
                 'Utilized SQL queries for data analysis and troubleshooting, focusing on efficient data retrieval to support operational needs.',
                 'Monitored service performance and reliability using Coralogix, Grafana, Postman, and Jira to minimize downtime and track issues.'
-            ]
+            ],
+            technologies: ['SQL']
         },
         {
             id: 2,
@@ -24,7 +25,8 @@ const WorkExperience = () => {
                 'Managed the integration process of merchants into the company platform, ensuring seamless onboarding.',
                 'Resolved technical issues by reviewing configurations, JavaScript and Liquid code, and customer-facing experiences.',
                 'Collaborated with cross-functional teams to optimize merchant integrations and improve platform stability.'
-            ]
+            ],
+            technologies: ['SQL', 'JavaScript', 'CSS', 'Liquid']
         }
     ];
 
@@ -77,6 +79,21 @@ const WorkExperience = () => {
                                     </li>
                                 ))}
                             </ul>
+
+                            {exp.technologies && exp.technologies.length > 0 && (
+                                <div className="mt-6 pt-6 border-t border-gray-800">
+                                    <div className="flex flex-wrap gap-2">
+                                        {exp.technologies.map((tech, i) => (
+                                            <span
+                                                key={i}
+                                                className="px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-sm font-medium border border-blue-500/20 hover:bg-blue-500/20 transition-colors"
+                                            >
+                                                {tech}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
                         </motion.div>
                     ))}
                 </div>
