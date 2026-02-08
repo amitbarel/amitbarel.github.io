@@ -35,13 +35,21 @@ const About = () => {
                     >
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
                         <p className="text-gray-400 text-lg mb-6 leading-relaxed">
-                            I am a passionate developer who loves to solve problems and create beautiful, functional websites.
-                            With a strong foundation in modern web technologies, I strive to write clean, maintainable code
-                            and deliver exceptional user experiences.
+                            I'm a passionate developer with hands-on experience in technical operations and merchant integrations.
+                            Currently working as an Integration Engineer at Global-e, I manage the integration process of merchants
+                            into the platform, resolving technical issues by reviewing configurations, JavaScript and Liquid code,
+                            and ensuring exceptional customer-facing experiences.
+                        </p>
+                        <p className="text-gray-400 text-lg mb-6 leading-relaxed">
+                            Previously as a NOC Engineer, I specialized in identifying and resolving complex technical issues,
+                            utilizing SQL for data analysis and troubleshooting, and monitoring service performance with tools
+                            like Coralogix, Grafana, Postman, and Jira to ensure seamless operations.
                         </p>
                         <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-                            When I'm not coding, you can find me exploring new technologies, contributing to open source,
-                            or enjoying a good cup of coffee.
+                            🔭 I'm currently mastering mobile software development and diving into new technologies.
+                            ⚡ I'm expanding my knowledge of frontend languages and frameworks.
+                            🌍 Ask me about weird geography facts or challenge me to a trivia — I know some interesting tidbits!
+                            🏀 Fun fact: I'm 6'2", but don't let my height fool you — I'm better at coding than basketball!
                         </p>
 
                         <div className="mb-6">
