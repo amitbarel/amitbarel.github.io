@@ -15,7 +15,6 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
         { name: 'Experience', href: '#experience' },
         { name: 'Projects', href: '#projects' },
@@ -30,7 +29,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
-                        <a href="#" className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+                        <a href="" className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
                             Amit Barel
                         </a>
                     </div>

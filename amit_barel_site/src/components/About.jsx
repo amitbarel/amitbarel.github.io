@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 const About = () => {
     const skills = [
-        'JavaScript (ES6+)', 'React', 'Node.js', 'TypeScript',
-        'HTML5 & CSS3', 'Tailwind CSS', 'Git & GitHub', 'Python'
+        "Android Development", 'JavaScript', 'React', 'Node.js', 'TypeScript',
+        'HTML5 & CSS3', 'Tailwind CSS', 'Git & GitHub', 'Python', "Swift"
     ];
 
     return (
@@ -17,12 +17,12 @@ const About = () => {
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
                     >
-                        <div className="relative">
-                            <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur-lg opacity-30"></div>
+                        <div className="relative max-w-sm mx-auto">
+                            <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-lg opacity-30"></div>
                             <img
-                                src="https://images.unsplash.com/photo-1507238691140-d48db6bdefdc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                src="https://avatars.githubusercontent.com/u/81353791?s=400&u=d8bb689a367a2553de1e4680459d9b75de12a9e9&v=4"
                                 alt="About Me"
-                                className="relative rounded-lg shadow-2xl w-full object-cover h-[400px]"
+                                className="relative rounded-full shadow-2xl w-full aspect-square object-cover"
                             />
                         </div>
                     </motion.div>
