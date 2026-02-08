@@ -8,7 +8,7 @@ const WorkExperience = () => {
             id: 1,
             role: 'NOC Engineer',
             company: 'Global-e',
-            period: '2022 - 2025',
+            period: 'Nov 2022 - Jan 2025',
             description: [
                 'Identified and resolved complex technical issues by investigating system logs and ensuring smooth service operations.',
                 'Utilized SQL queries for data analysis and troubleshooting, focusing on efficient data retrieval to support operational needs.',
@@ -17,24 +17,13 @@ const WorkExperience = () => {
         },
         {
             id: 2,
-            role: 'Frontend Developer',
-            company: 'StartUp Inc',
-            period: '2019 - 2021',
+            role: 'Integration Engineer',
+            company: 'Global-e',
+            period: 'Jan 2025 - Present',
             description: [
-                'Collaborated with designers to implement pixel-perfect UIs.',
-                'Integrated RESTful APIs and managed global state using Redux.',
-                'Participated in agile ceremonies and sprint planning.'
-            ]
-        },
-        {
-            id: 3,
-            role: 'Web Developer Intern',
-            company: 'Digital Agency',
-            period: '2018 - 2019',
-            description: [
-                'Assisted in building responsive websites for various clients.',
-                'Learned best practices in HTML, CSS, and JavaScript.',
-                'Fixed bugs and optimized assets for better loading times.'
+                'Managed the integration process of merchants into the company platform, ensuring seamless onboarding.',
+                'Resolved technical issues by reviewing configurations, JavaScript and Liquid code, and customer-facing experiences.',
+                'Collaborated with cross-functional teams to optimize merchant integrations and improve platform stability.'
             ]
         }
     ];
