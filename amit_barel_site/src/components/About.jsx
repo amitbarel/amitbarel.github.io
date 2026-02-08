@@ -44,7 +44,7 @@ const About = () => {
                         <p className="text-gray-400 text-lg mb-8 leading-relaxed">
                             Beyond my day-to-day work, I'm diving into mobile software development and constantly expanding my knowledge
                             of frontend technologies. When I'm not coding, you might find me sharing weird geography facts (ask me for
-                            trivia!), or on a basketball court — though at 6'2", I'm definitely better at debugging than dunking.
+                            trivia!), or watching sports. Even though I'm 6'2", I'm definitely better at debugging than dunking.
                             I believe in writing clean, maintainable code and always look for ways to improve both my technical skills
                             and the systems I work on.
                         </p>
