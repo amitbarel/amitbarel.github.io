@@ -35,21 +35,18 @@ const About = () => {
                     >
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
                         <p className="text-gray-400 text-lg mb-6 leading-relaxed">
-                            I'm a passionate developer with hands-on experience in technical operations and merchant integrations.
-                            Currently working as an Integration Engineer at Global-e, I manage the integration process of merchants
-                            into the platform, resolving technical issues by reviewing configurations, JavaScript and Liquid code,
-                            and ensuring exceptional customer-facing experiences.
-                        </p>
-                        <p className="text-gray-400 text-lg mb-6 leading-relaxed">
-                            Previously as a NOC Engineer, I specialized in identifying and resolving complex technical issues,
-                            utilizing SQL for data analysis and troubleshooting, and monitoring service performance with tools
-                            like Coralogix, Grafana, Postman, and Jira to ensure seamless operations.
+                            I'm a passionate developer who loves solving complex technical problems and creating functional solutions.
+                            Currently working as an Integration Engineer at Global-e, I help merchants seamlessly integrate into our
+                            platform by troubleshooting configurations, reviewing JavaScript and Liquid code, and ensuring smooth
+                            customer-facing experiences. Previously, I worked as a NOC Engineer where I honed my skills in SQL-based
+                            data analysis and system monitoring using tools like Coralogix, Grafana, and Jira.
                         </p>
                         <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-                            🔭 I'm currently mastering mobile software development and diving into new technologies.
-                            ⚡ I'm expanding my knowledge of frontend languages and frameworks.
-                            🌍 Ask me about weird geography facts or challenge me to a trivia — I know some interesting tidbits!
-                            🏀 Fun fact: I'm 6'2", but don't let my height fool you — I'm better at coding than basketball!
+                            Beyond my day-to-day work, I'm diving into mobile software development and constantly expanding my knowledge
+                            of frontend technologies. When I'm not coding, you might find me sharing weird geography facts (ask me for
+                            trivia!), or on a basketball court — though at 6'2", I'm definitely better at debugging than dunking.
+                            I believe in writing clean, maintainable code and always look for ways to improve both my technical skills
+                            and the systems I work on.
                         </p>
 
                         <div className="mb-6">
