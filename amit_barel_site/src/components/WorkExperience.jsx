@@ -6,13 +6,13 @@ const WorkExperience = () => {
     const experiences = [
         {
             id: 1,
-            role: 'Senior Frontend Developer',
-            company: 'Tech Corp',
-            period: '2021 - Present',
+            role: 'NOC Engineer',
+            company: 'Global-e',
+            period: '2022 - 2025',
             description: [
-                'Led the development of the main product dashboard using React and TypeScript.',
-                'Improved site performance by 40% through code splitting and lazy loading.',
-                'Mentored junior developers and conducted code reviews.'
+                'Identified and resolved complex technical issues by investigating system logs and ensuring smooth service operations.',
+                'Utilized SQL queries for data analysis and troubleshooting, focusing on efficient data retrieval to support operational needs.',
+                'Monitored service performance and reliability using Coralogix, Grafana, Postman, and Jira to minimize downtime and track issues.'
             ]
         },
         {
