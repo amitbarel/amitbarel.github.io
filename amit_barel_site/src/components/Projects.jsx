@@ -4,27 +4,24 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
     {
-        title: 'Project One',
-        description: 'A brief description of this amazing project. It uses modern technologies and solves a real-world problem.',
-        tech: ['React', 'Node.js', 'MongoDB'],
-        github: 'https://github.com/amitbarel',
-        live: 'https://example.com',
-        image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        title: 'AirQualitySensor',
+        description: "An Android app that tracks the user's location to periodically fetch and display real-time air quality (AQI) updates through a foreground service and notifications.",
+        tech: ['Android', 'Java', 'OpenWeatherMap API'],
+        github: 'https://github.com/amitbarel/AirQualitySensor',
+        image: 'https://private-user-images.githubusercontent.com/81353791/353372302-b9769ccc-11c9-431b-bfea-b546c0c157e6.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQxMTkwMTMsIm5iZiI6MTc3NDExODcxMywicGF0aCI6Ii84MTM1Mzc5MS8zNTMzNzIzMDItYjk3NjljY2MtMTFjOS00MzFiLWJmZWEtYjU0NmMwYzE1N2U2LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAzMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMzIxVDE4NDUxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQzOWMwMjU5YTMzMzUwMTZlN2RiYjNiMjdkYjkyOTFkMjQ3OGU1MmIzMTU3M2VmMWU4Y2NjMmIwYjRkODAzZGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.KOyAvAdHs7TDN7w6WE9q8KF0DceCDponIdTsrEqsi2g',
     },
     {
-        title: 'Project Two',
-        description: 'Another cool project that demonstrates my skills in frontend development and UI design.',
-        tech: ['Vue.js', 'Firebase', 'Tailwind'],
-        github: 'https://github.com/amitbarel',
-        live: 'https://example.com',
+        title: 'MallApp Superapp',
+        description: 'I was part of a team that developed a backend-driven SuperApp platform that manages users and dynamic objects, supports search and relationships between them, and enables mini-app commands via a REST API.',
+        tech: ['Android Studio', 'Python', 'Retrofit', 'Spring', 'MongoDB'],
+        github: 'https://github.com/amitbarel/MallSuperApp',
         image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     },
     {
-        title: 'Project Three',
-        description: 'A mobile-first application built with React Native. It features smooth animations and offline support.',
-        tech: ['React Native', 'Redux', 'API Integration'],
-        github: 'https://github.com/amitbarel',
-        live: 'https://example.com',
+        title: 'Kama Kama',
+        description: 'We built a web app that is called Kama Kama, which is a platform for football web games. We also scraped data using python.',
+        tech: ['Next.js', 'API Integration', 'PostgreSQL', 'TypeScript'],
+        github: 'https://github.com/ValueHiLoRepo',
         image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     },
 ];
@@ -82,15 +79,6 @@ const Projects = () => {
                                     >
                                         <Github size={20} className="mr-2" />
                                         Code
-                                    </a>
-                                    <a
-                                        href={project.live}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
-                                    >
-                                        <ExternalLink size={20} className="mr-2" />
-                                        Live Demo
                                     </a>
                                 </div>
                             </div>
